@@ -9,5 +9,6 @@ for feld in range(64):
     print('Auf Feld: {} befinden sich {} Reiskörner und damit auf dem Schachbrett {} \
         Reiskörner'.format(feld+1,reis,summe))
 
-print()
+for i in range(3):
+        print()
     
