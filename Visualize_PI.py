@@ -31,6 +31,9 @@ for n in range(lines):
     tu.pencolor(0+color,255-color,color)
     tu.setheading(rotation)
     tu.forward(8)
+    if n % 10_000 == 0:
+        tu.update()
 
+tu.getcanvas().postscript(file='1_mio_digits_PI.ps')
 tu.done()
 
