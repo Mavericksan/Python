@@ -1,6 +1,6 @@
 #Erstes Programm in Python
 
-import matplotlib.pyplot as plot
+import matplotlib.pyplot as plt
 
 print('hello world')
 for x in 'spam':
