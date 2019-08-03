@@ -3,7 +3,10 @@
 from wordcloud import WordCloud, STOPWORDS
 import matplotlib.pyplot as plt
 
-with open('alice_wonderland.txt') as f:
+filename = input('Bitte Filenamen der Textdatei zum Generieren der Wordcloud eingeben: ')
+#print('Eingegebener Filename: ', filename)
+
+with open(filename) as f:
     text = f.read()
 
 wordcloud = WordCloud(width = 1920, height = 1280)
