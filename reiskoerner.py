@@ -1,6 +1,7 @@
 # Wie viele Reiskoerner passen auf ein Schachbrett
 
 import matplotlib.pyplot as plt
+import numpy as np
 
 print()
 summe = 0
