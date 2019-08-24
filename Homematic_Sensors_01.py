@@ -10,6 +10,7 @@ with open('homematic_467-humidity.csv', 'r') as f:
             DatumTimeStr, SensorValueStr = Zeile.split(';')
             #print(DatumTimeStr,'   --> ', SensorValueStr)
             datum = (dt.datetime.strptime(DatumTimeStr, '%d.%m.%Y %H:%M')).date()
+            #Datum-Zeit Objekt in Datum umwandeln
             #print(datum)
         i =+ 1    
         
