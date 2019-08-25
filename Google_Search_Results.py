@@ -47,11 +47,12 @@ user_agents = list(user_agents_str.split('\t'))
 for tag in tags_list:
     browser = RoboBrowser(history=False, user_agent=random.choice(user_agents), parser='html.parser')
     #print(tag)
-    browser.open('https://www.google.de/search?num=500&q='+ tag)
+    browser.open('https://www.google.de/search?num=500&q='+tag)
     links = browser.find_all('cite', {'class': 'iUh30'})
-    #print(links)
+    print(links)
     Ranking = 999
     for i, link in enumerate(links):
+        print(str(link))
         if WebSite in str(link):
             Ranking = i+1
             print(tag+" " + str(Ranking))
