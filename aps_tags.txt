@@ -1,2 +1,1 @@
-['Everbeing','Probe Card','GGB','WinWay Technology','Testsocket','SEDICON','Probe Station','Analytical Probestation','Mechanical Devices','Thermal Forcing']
-
+aps-munich.com;aps Solutions;aps Solutions GmbH;Everbeing;Probe Card;GGB;WinWay Technology;Testsocket;SEDICON;Probe Station;Analytical Probestation;Mechanical Devices;Thermal Forcing
